@@ -4,18 +4,32 @@ This is my notebook that accumulates my knowledge, hacks, links, posts, books. I
 ** Nix
 *** TODO [[https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55][Nix by Example by James Fisher]]                      :nix:expression:
 Blog post about Nix expression language.
+*** [[https://nixos.wiki/wiki/Nix_Expression_Language][Official Nix Expression Language]]                         :nix:expression:
 *** [[https://nixos.org/manual/nix/stable/][Nix Package Manager Guide]]                                           :nix:
+*** TODO [[https://maxfieldchen.com/posts/2020-05-16-Functional-Fika-Haskell-Nix-Cabal.html][Functional Fika - Nix and Haskell]]                              :nix:
+*** TODO [[https://github.com/cdepillabout/post-about-nix-and-haskell/blob/master/2019-08-03-q-and-as-about-nix-for-haskellers.md][Post about Nix and Haskell]]                                     :nix:
+*** TODO [[https://nixcloud.io/tour/?id=3][A tour of Nix (interactive]]                          :nix:expression:
 ** Haskell
-*** [[https://www.youtube.com/watch?v=t9pxo7L8mS0][An Intuition for List Folds by Tony Morris (video)]]
+*** Servant
+**** [[https://cwfh28.blogspot.com/2018/02/exporting-as-csv-8.html][Exporting values as CSV]]
+*** GHC Internals
+**** [[https://www.youtube.com/watch?v=t9pxo7L8mS0][An Intuition for List Folds by Tony Morris (video)]]
 In this presentation Tony gives a simple intuition to understanding both left and right folds of lists. Left fold as a loop over a collection, right fold as replacement for cons and nil.
-*** [[http://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf][GHC(STG,Cmm,asm) illustrated]]                              :ghc:internals:
+**** [[http://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf][GHC(STG,Cmm,asm) illustrated]]                             :ghc:internals:
 This is gold! Massive, constantly updated presentation about memory layout, memory alloation, Core, STG, Cmm and assembly. This is a go to document when trying to understand how GHC works under the hood.
-*** [[https://www.youtube.com/watch?v=7t6wt7ByBWg][Edsko de Vries - Being lazy without being bloated]]         :ghc:internals:
+**** [[https://www.youtube.com/watch?v=7t6wt7ByBWg][Edsko de Vries - Being lazy without being bloated]]        :ghc:internals:
 In this talk Edsko is showing his tool NoThunk that allows to narrow down thunks that could potentially cause memory leaks. It is also a good introduction for anyone willing to understand how memory leaks can occur in GHC.
-*** [[https://www.youtube.com/watch?v=vvLDerKtUWE][Maxim Koltsov – Introduction to Haskell execution and garbage collection internals]] :ghc:internals:
+**** [[https://www.youtube.com/watch?v=vvLDerKtUWE][Maxim Koltsov – Introduction to Haskell execution and garbage collection internals]] :ghc:internals:
 Nice introduction to memory allocation, garbage collection in GHC
-*** [[https://ocharles.org.uk/pages/2014-12-01-24-days-of-ghc-extensions.html][24 days of extensions]]                                    :ghc:extensions:
+**** TODO [[https://www.well-typed.com/blog/many-10-145/][Eventful GHC]]                                                  :ghc:
+Nice writ-upabout events produced by GHC and how one can use them to find problematic places in their code
+*** Lens
+**** TODO [[https://chrispenner.ca/posts/traversal-systems][Generalizing 'Jq' And Traversal Systems Using Optics And Standard Monads]]
+*** Other
+**** [[https://ocharles.org.uk/pages/2014-12-01-24-days-of-ghc-extensions.html][24 days of extensions]]                                   :ghc:extensions:
 A collection of blog posts about different GHC extensions
+**** TODO [[https://johantibell.com/files/haskell-performance-patterns.html#(1)][Haskell Performance Patterns]]
+**** TODO [[https://www.fpcomplete.com/blog/2017/09/all-about-strictness/][All about strictness]]
 ** Hakyll
 *** TODO [[https://geekplace.eu/flow/posts/2014-08-17-embedding-discourse-into-hakyll.html][Embeding discourse into haskell]]
 *** TODO [[https://cs-syd.eu/posts/2016-06-05-estimated-reading-time-in-hakyll][Estimated reading time in Hakyll]]
@@ -31,6 +45,9 @@ A collection of blog posts about different GHC extensions
 ** Raspberry Pi
 *** TODO [[https://www.futurelearn.com/courses/robotics-with-raspberry-pi][Robotics With Raspberry Pi]]
 Free online course about robotics
+** Other
+*** TODO [[https://tek.brick.do/c324939a-8ca2-4156-8e93-96e4a2c6b05a][Please understand GPL]]
+A must to read about licenses, especially GPL
 * How-to
 In How-to section I keep all my little and bigger how-tos. Being sick and tired of constantly googling for the same hacks, I started keeping them in one place for reference.
 ** Emacs
