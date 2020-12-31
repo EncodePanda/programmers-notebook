@@ -2,6 +2,8 @@
 This is my notebook that accumulates my knowledge, hacks, links, posts, books. It is provided "as is", without warranty of any kind.
 * Library
 ** Nix
+*** TODO [[https://ebzzry.io/en/nix/][A Gentle Introduction to the Nix Family]]
+*** TODO [[https://www.youtube.com/watch?v=w2E1C8u_uY0&ab_channel=SeanWhite][{Video} Nix: The Purely Functional Package Manager]]
 *** TODO [[https://blog.thomasheartman.com/posts/nix-override-packages-with-overlays][Nix: override packages with overlays]]                  :nix:overlays:
 *** TODO [[https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55][Nix by Example by James Fisher]]                      :nix:expression:
 Blog post about Nix expression language.
